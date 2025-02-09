@@ -28,6 +28,9 @@ android {
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    
+    namespace 'com.example.bluetooth_print'
+    
     lintOptions {
         disable 'InvalidPackage'
     }
